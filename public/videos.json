@@ -1,0 +1,24 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "url": "videos/anime3.mp4",
+            "channel": "animezenno",
+            "song": "Big Bang",
+            "likes": "970",
+            "messages": "42",
+            "shares": "200",
+            "description": "Anime edit.... super cool effects n stuffs"
+        },
+        {
+            "id": 2,
+            "url": "videos/hug.mp4",
+            "channel": "thekingbarrytv",
+            "song": "audio34567",
+            "likes": "200",
+            "messages": "15",
+            "shares": "86",
+            "description": "Hug a stranger, get an iPhone"
+        }
+    ]
+}
