@@ -2,22 +2,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './App.css';
 import Video from './views/Video/Video';
-import axios from "./axios/axios";
 
 function App() {
-
-  // const [videos, setVideos] = useState([]);
-
-  // useEffect(() => {
-  //   async function fetchVideos(){
-  //     const response = await axios.get('videos.json');
-  //     setVideos(response.data);
-
-  //     return response;
-  //   }
-
-  //   fetchVideos();
-  // }, []);
 
     const shouldFetchVideos = useRef(true);
     const [isFetchingVideos, setisFetchingVideos] = useState(false);
